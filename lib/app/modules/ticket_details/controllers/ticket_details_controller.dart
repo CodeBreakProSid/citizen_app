@@ -122,7 +122,10 @@ class TicketDetailsController extends TicketBaseDetailsController {
   //******************************File picker function**************************
   Future<void> selectFiles() async {
     try {
-      if (await Permission.storage.isGranted) {
+      if (await Permission.manageExternalStorage.isGranted
+          || await Permission.audio.isGranted
+          || await Permission.photos.isGranted
+          || await Permission.storage.isGranted) {
         final FilePickerResult? result =
             await FilePicker.platform.pickFiles(allowMultiple: true);
 
