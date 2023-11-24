@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43874173984",
+    "project_id": "railjencitizen-919cb",
+    "storage_bucket": "railjencitizen-919cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43874173984:android:21c5488065787516e6e845",
+        "android_client_info": {
+          "package_name": "org.citizen.janamaithri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43874173984-m3hh8bo03l7inauatc203t6dhvcl1b37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkOgZUPq7D_lElmivVgJmdXJANUv0CeMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43874173984-m3hh8bo03l7inauatc203t6dhvcl1b37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
